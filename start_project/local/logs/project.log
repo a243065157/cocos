@@ -1,74 +1,55 @@
-2017-05-16T14:09:54.606Z - normal: Load ~/.CocosCreator/settings.json
-2017-05-16T14:09:54.611Z - normal: checking language setting...
-2017-05-16T14:09:54.611Z - normal: Language: zh
-2017-05-16T14:09:56.111Z - success: protocol editor-framework registered
-2017-05-16T14:09:56.111Z - success: protocol app registered
-2017-05-16T14:09:56.112Z - success: protocol theme registered
-2017-05-16T14:09:56.112Z - success: protocol profile registered
-2017-05-16T14:09:56.112Z - success: protocol packages registered
-2017-05-16T14:09:56.112Z - success: protocol unpack registerred
-2017-05-16T14:09:56.112Z - success: protocol disable-commonjs registerred
-2017-05-16T14:09:56.371Z - normal: connected!
-2017-05-16T14:09:56.373Z - normal: Check project F:\cocos\start_project
-2017-05-16T14:09:56.375Z - normal: Initializing Cocos2d
-2017-05-16T14:09:56.620Z - normal: Initializing Asset Database
-2017-05-16T14:09:56.649Z - success: protocol uuid registerred
-2017-05-16T14:09:56.649Z - success: protocol db registerred
-2017-05-16T14:09:56.649Z - success: protocol thumbnail registerred
-2017-05-16T14:09:56.649Z - normal: Loading editor/builtin packages
-2017-05-16T14:09:56.783Z - success: assets loaded
-2017-05-16T14:09:56.786Z - success: builder loaded
-2017-05-16T14:09:56.789Z - success: hierarchy loaded
-2017-05-16T14:09:56.792Z - success: inspector loaded
-2017-05-16T14:09:56.793Z - success: keystore loaded
-2017-05-16T14:09:56.796Z - success: node-library loaded
-2017-05-16T14:09:56.798Z - success: preferences loaded
-2017-05-16T14:09:56.812Z - success: project-importer loaded
-2017-05-16T14:09:56.814Z - success: project-settings loaded
-2017-05-16T14:09:56.816Z - success: ui-kit loaded
-2017-05-16T14:09:56.818Z - success: ui-grid loaded
-2017-05-16T14:09:56.821Z - success: scene loaded
-2017-05-16T14:09:56.822Z - success: sprite-editor loaded
-2017-05-16T14:09:56.875Z - success: store loaded
-2017-05-16T14:09:56.880Z - success: timeline loaded
-2017-05-16T14:09:56.881Z - normal: Loading builtin packages
-2017-05-16T14:09:56.884Z - success: anysdk loaded
-2017-05-16T14:09:56.885Z - success: asset-db-debugger loaded
-2017-05-16T14:09:56.887Z - success: code-editor loaded
-2017-05-16T14:09:56.887Z - success: color-picker loaded
-2017-05-16T14:09:56.891Z - success: console loaded
-2017-05-16T14:09:56.894Z - success: package-manager loaded
-2017-05-16T14:09:56.896Z - success: tester loaded
-2017-05-16T14:09:56.897Z - success: ui-kit-preview-extra loaded
-2017-05-16T14:09:56.899Z - success: ui-kit-preview loaded
-2017-05-16T14:09:56.902Z - success: ui-tree loaded
-2017-05-16T14:09:56.953Z - normal: Initializing project F:\cocos\start_project
-2017-05-16T14:09:56.955Z - normal: Loading packages
-2017-05-16T14:09:56.958Z - normal: Watching packages
-2017-05-16T14:09:56.972Z - normal: Run Application
-2017-05-16T14:09:57.882Z - success: preview server running at http://localhost:7456
-2017-05-16T14:09:57.882Z - normal: Compiling scripts...
-2017-05-16T14:09:59.435Z - normal: Compiled project javascript file successfully
-2017-05-16T14:10:03.665Z - normal: 1.4.2
-2017-05-16T14:14:19.968Z - normal: Compiled project javascript file successfully
-2017-05-16T14:14:23.942Z - normal: Compiled project javascript file successfully
-2017-05-16T14:15:00.672Z - normal: Compiled project javascript file successfully
-2017-05-16T14:15:22.582Z - normal: Compiled project javascript file successfully
-2017-05-16T14:16:04.875Z - normal: Compiled project javascript file successfully
-2017-05-16T14:17:31.854Z - normal: Compiled project javascript file successfully
-2017-05-16T14:18:31.017Z - normal: Compiled project javascript file successfully
-2017-05-16T14:20:30.704Z - normal: Compiled project javascript file successfully
-2017-05-16T14:21:32.711Z - normal: Compiled project javascript file successfully
-2017-05-16T14:21:36.535Z - normal: Compiled project javascript file successfully
-2017-05-16T14:21:41.156Z - normal: Compiled project javascript file successfully
-2017-05-16T14:22:36.742Z - normal: Compiled project javascript file successfully
-2017-05-16T14:31:14.419Z - normal: Compiled project javascript file successfully
-2017-05-16T14:31:17.473Z - normal: Compiled project javascript file successfully
-2017-05-16T14:31:26.067Z - normal: Compiled project javascript file successfully
-2017-05-16T14:37:12.229Z - normal: Compiled project javascript file successfully
-2017-05-16T15:00:32.467Z - normal: Compiled project javascript file successfully
-2017-05-16T15:04:59.096Z - normal: Compiled project javascript file successfully
-2017-05-16T15:09:08.171Z - normal: Compiled project javascript file successfully
-2017-05-16T15:14:28.279Z - normal: Compiled project javascript file successfully
-2017-05-16T15:14:51.174Z - normal: Compiled project javascript file successfully
-2017-05-16T15:18:02.254Z - normal: Compiled project javascript file successfully
+2017-05-17T14:23:42.025Z - normal: Load ~/.CocosCreator/settings.json
+2017-05-17T14:23:42.032Z - normal: checking language setting...
+2017-05-17T14:23:42.033Z - normal: Language: zh
+2017-05-17T14:23:44.105Z - success: protocol editor-framework registered
+2017-05-17T14:23:44.106Z - success: protocol app registered
+2017-05-17T14:23:44.106Z - success: protocol theme registered
+2017-05-17T14:23:44.106Z - success: protocol profile registered
+2017-05-17T14:23:44.106Z - success: protocol packages registered
+2017-05-17T14:23:44.106Z - success: protocol unpack registerred
+2017-05-17T14:23:44.106Z - success: protocol disable-commonjs registerred
+2017-05-17T14:23:44.347Z - normal: connected!
+2017-05-17T14:23:44.348Z - normal: Check project F:\cocos\start_project
+2017-05-17T14:23:44.350Z - normal: Initializing Cocos2d
+2017-05-17T14:23:44.845Z - normal: Initializing Asset Database
+2017-05-17T14:23:44.914Z - success: protocol uuid registerred
+2017-05-17T14:23:44.914Z - success: protocol db registerred
+2017-05-17T14:23:44.914Z - success: protocol thumbnail registerred
+2017-05-17T14:23:44.914Z - normal: Loading editor/builtin packages
+2017-05-17T14:23:45.120Z - success: assets loaded
+2017-05-17T14:23:45.122Z - success: builder loaded
+2017-05-17T14:23:45.126Z - success: hierarchy loaded
+2017-05-17T14:23:45.129Z - success: inspector loaded
+2017-05-17T14:23:45.130Z - success: keystore loaded
+2017-05-17T14:23:45.133Z - success: node-library loaded
+2017-05-17T14:23:45.136Z - success: preferences loaded
+2017-05-17T14:23:45.150Z - success: project-importer loaded
+2017-05-17T14:23:45.153Z - success: project-settings loaded
+2017-05-17T14:23:45.156Z - success: ui-kit loaded
+2017-05-17T14:23:45.176Z - success: ui-grid loaded
+2017-05-17T14:23:45.189Z - success: scene loaded
+2017-05-17T14:23:45.195Z - success: sprite-editor loaded
+2017-05-17T14:23:45.370Z - success: store loaded
+2017-05-17T14:23:45.376Z - success: timeline loaded
+2017-05-17T14:23:45.377Z - normal: Loading builtin packages
+2017-05-17T14:23:45.385Z - success: anysdk loaded
+2017-05-17T14:23:45.390Z - success: asset-db-debugger loaded
+2017-05-17T14:23:45.392Z - success: code-editor loaded
+2017-05-17T14:23:45.399Z - success: color-picker loaded
+2017-05-17T14:23:45.403Z - success: console loaded
+2017-05-17T14:23:45.407Z - success: package-manager loaded
+2017-05-17T14:23:45.410Z - success: tester loaded
+2017-05-17T14:23:45.411Z - success: ui-kit-preview-extra loaded
+2017-05-17T14:23:45.413Z - success: ui-kit-preview loaded
+2017-05-17T14:23:45.415Z - success: ui-tree loaded
+2017-05-17T14:23:45.536Z - normal: Initializing project F:\cocos\start_project
+2017-05-17T14:23:45.539Z - normal: Loading packages
+2017-05-17T14:23:45.542Z - normal: Watching packages
+2017-05-17T14:23:45.569Z - normal: Run Application
+2017-05-17T14:23:46.547Z - success: preview server running at http://localhost:7456
+2017-05-17T14:23:50.706Z - normal: 1.4.2
+2017-05-17T14:52:13.891Z - normal: Compiled project javascript file successfully
+2017-05-17T15:05:21.046Z - normal: Compiled project javascript file successfully
+2017-05-17T15:05:52.359Z - normal: Compiled project javascript file successfully
+2017-05-17T15:30:40.830Z - normal: Compiled project javascript file successfully
+2017-05-17T15:31:01.923Z - info: shutdown preview server

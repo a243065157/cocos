@@ -10,11 +10,28 @@
     "Component",
     "properties",
     "pickRadius",
-    "onLoad"
+    "onLoad",
+    "getPlayDistance",
+    "playerPos",
+    "game",
+    "play",
+    "getPosition",
+    "dist",
+    "pDistance",
+    "node",
+    "position",
+    "onPicked",
+    "spawnNewStar",
+    "destroy",
+    "update",
+    "dt",
+    "console",
+    "log",
+    "getPlayerDistance"
   ],
-  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACAC,oBAAY;AAFJ,KAHP;;AAQL;AACAC,YAAQ,kBAAY,CAEnB;;AAXI,CAAT",
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACAC,oBAAY;AAFJ,KAHP;;AAQL;AACAC,YAAQ,kBAAY,CAEnB,CAXI;AAYLC,qBAAiB,2BAAY;AACzB;AACA,YAAIC,YAAY,KAAKC,IAAL,CAAUC,IAAV,CAAeC,WAAf,EAAhB;AACA;AACA,YAAIC,OAAOZ,GAAGa,SAAH,CAAa,KAAKC,IAAL,CAAUC,QAAvB,EAAiCP,SAAjC,CAAX;AACA,eAAOI,IAAP;AACH,KAlBI;AAmBLI,cAAU,oBAAY;AAClB;AACA,aAAKP,IAAL,CAAUQ,YAAV;AACA;AACA,aAAKH,IAAL,CAAUI,OAAV;AACH,KAxBI;AAyBL;AACAC,YAAQ,gBAAUC,EAAV,EAAc;AAClBC,gBAAQC,GAAR,CAAY,IAAZ;AACP;AACO,YAAI,KAAKC,iBAAL,KAA2B,KAAKlB,UAApC,EAAgD;AAC5C;AACA,iBAAKW,QAAL;AACA;AACH;AACJ;AAlCI,CAAT",
   "file": "unknown",
   "sourcesContent": [
-    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // 星星和主角之间的距离小于这个数值时，就会完成收集\r\n        pickRadius: 0\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // 星星和主角之间的距离小于这个数值时，就会完成收集\r\n        pickRadius: 0\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n    getPlayDistance: function () {\r\n        // 根据节点位置判断距离\r\n        var playerPos = this.game.play.getPosition();\r\n        // 根据两点位置计算两点之间距离\r\n        var dist = cc.pDistance(this.node.position, playerPos);\r\n        return dist;\r\n    },\r\n    onPicked: function () {\r\n        // 当星星被收集时，调用GAME脚本中的接口，生成一个新星星\r\n        this.game.spawnNewStar();\r\n        // 然后销毁当前星星的节点\r\n        this.node.destroy();\r\n    },\r\n    // called every frame, uncomment this function to activate update callback\r\n    update: function (dt) {\r\n        console.log(this);\r\n // 每帧判断和主角之间的距离是否小于收集距离\r\n        if (this.getPlayerDistance() < this.pickRadius) {\r\n            // 调用收集行为\r\n            this.onPicked();\r\n            return;\r\n        }\r\n    }\r\n});\r\n"
   ]
 }

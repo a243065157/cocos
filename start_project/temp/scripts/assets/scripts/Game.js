@@ -42,6 +42,7 @@ cc.Class({
         this.node.addChild(newStar);
         // 为星星设置一个随机位置
         newStar.setPosition(this.getNewStarPosition());
+        newStar.getComponent('Star').game = this;
     },
     getNewStarPosition: function getNewStarPosition() {
         var randX = 0;
@@ -49,6 +50,7 @@ cc.Class({
         var randY = this.groundY + cc.random0To1() * this.player.getComponent('Player').jumpHeight + 50;
         // 根据屏幕的宽度，随机得到一个星星的X坐标
         var maxX = this.node.width / 2;
+        randX = cc.random1To1() * maxX;
         // 返回星星坐标
         return cc.p(randX, randY);
     }
